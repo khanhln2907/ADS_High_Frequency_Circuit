@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      khanh
+HostName                       khanh_ln
+ProcessIdentifier              7172
+ProcessCreationTime_UTC        1636094907
+ProcessCreationTime_Readable   Fri Nov  5 07:48:27 2021 Mitteleuropäische Zeit
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\khanh\Desktop\Workspace\ADS\ADS_lib\%Wilkinson_%Power_%Divider\schematic\sch.oa.cdslck
+TimeEditLocked                 Fri Nov  5 07:48:41 2021 Mitteleuropäische Zeit
