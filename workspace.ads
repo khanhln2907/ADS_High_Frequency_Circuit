@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="1" Version="100">
+<ADSWorkspace Revision="5" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <Library Name="ads_standard_layers_ic" />
@@ -58,5 +58,25 @@
         <Preferences Name="schematic.prf" />
         <Library Name="ADS_lib" />
         <Folder Name="Power_Divider" />
+        <Log Name="search_history.log" />
+        <Preferences Name="ADS_lib_lay.prf" />
+        <Cell Name="ADS_lib:Wilkinson_Power_Divider" />
+        <ConfigFile Name="dds.cfg" />
+        <Data_Display Name="Wilkinson_Power_Divider.dds" />
+        <Log Name="readegs.log" />
+        <Preferences Name="ADS_lib_sch.prf" />
+        <Preferences Name="ads_tlines_lay.prf" />
+        <Dataset Name="Wilkinson_Power_Divider_MomUW.ds" />
+        <Dataset Name="Wilkinson_Power_Divider_MomUW_a.ds" />
+        <Data_Files Name="Wilkinson_Power_Divider_MomUW.ds" />
+        <Data_Files Name="Wilkinson_Power_Divider_MomUW_a.ds" />
+        <Cell Name="ADS_lib:Wilkinson_Power_Divier_Distributed_Elements" />
+        <Layer_Preference Name="ads_standard_layers.layerprf" />
+        <Cell Name="ADS_lib:Wilkinson_Power_Divider_2_sections" />
+        <Dataset Name="Wilkinson_Power_Divider_2_sections_MomUW.ds" />
+        <Data_Files Name="Wilkinson_Power_Divider_2_sections_MomUW.ds" />
+        <Dataset Name="Wilkinson_Power_Divider_2_sections_MomUW_a.ds" />
+        <Data_Files Name="Wilkinson_Power_Divider_2_sections_MomUW_a.ds" />
+        <Data_Display Name="Wilkinson_Power_Divider_2_sections.dds" />
     </Workspace>
 </ADSWorkspace>
