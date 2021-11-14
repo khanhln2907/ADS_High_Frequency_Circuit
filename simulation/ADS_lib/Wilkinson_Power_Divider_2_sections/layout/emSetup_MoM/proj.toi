@@ -10,15 +10,15 @@
     <name>P3</name>
   </term>
   <term id="4">
-    <name>PR1_1</name>
+    <name>P2up</name>
   </term>
   <term id="5">
-    <name>PR1_2</name>
+    <name>P2down</name>
   </term>
   <term id="6">
-    <name>PR2_1</name>
+    <name>P1up</name>
   </term>
   <term id="7">
-    <name>PR2_2</name>
+    <name>P1down</name>
   </term>
 </term_list>

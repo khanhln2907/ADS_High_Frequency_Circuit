@@ -35,21 +35,21 @@
       <calibration_group_ref ref="1" />
     </port>
     <port id="4">
-      <name>PR1_1</name>
-      <plus_pin>PR1_1</plus_pin>
-      <minus_pin>PR1_2</minus_pin>
+      <name>P2up</name>
+      <plus_pin>P2up</plus_pin>
+      <minus_pin>P2down</minus_pin>
       <impedance>
-        <real>72.05</real>
+        <real>94.5961</real>
         <imag>0</imag>
       </impedance>
       <calibration_group_ref ref="1" />
     </port>
     <port id="5">
-      <name>PR2_1</name>
-      <plus_pin>PR2_1</plus_pin>
-      <minus_pin>PR2_2</minus_pin>
+      <name>P1up</name>
+      <plus_pin>P1up</plus_pin>
+      <minus_pin>P1down</minus_pin>
       <impedance>
-        <real>94.5981</real>
+        <real>72.05</real>
         <imag>0</imag>
       </impedance>
       <calibration_group_ref ref="1" />

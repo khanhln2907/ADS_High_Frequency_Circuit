@@ -1,14 +1,14 @@
 <!DOCTYPE Substrate>
 <SubstrateModel>
-    <stack BAL_NUM="0" PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" SPECIFIED_PURPOSES="" BAL_TYPE="NONE">
-        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
-        <interface BAL_NUM="0" groundplane="1" materialname="PERFECT_CONDUCTOR" thickunit="micron" thick="0" BAL_TYPE="NONE"/>
-        <material BAL_NUM="0" materialname="Rogers_RO3010" thickunit="millimeter" thick="0.635" BAL_TYPE="INHERIT"/>
-        <interface BAL_NUM="0" materialname="" thickunit="micron" thick="" BAL_TYPE="INHERIT"/>
-        <material BAL_NUM="0" materialname="Rogers_RO3010" BAL_TYPE="INHERIT"/>
+    <stack BAL_NUM="0" PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" BAL_TYPE="NONE" SPECIFIED_PURPOSES="">
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="AIR"/>
+        <interface BAL_NUM="0" thick="17.5" BAL_TYPE="NONE" materialname="Copper" groundplane="1" thickunit="micron"/>
+        <material BAL_NUM="0" thick="0.635" BAL_TYPE="INHERIT" materialname="Roger_Custom" thickunit="millimeter"/>
+        <interface BAL_NUM="0" thick="" BAL_TYPE="INHERIT" materialname="" thickunit="micron"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="AIR"/>
     </stack>
     <layers>
-        <layer negative="0" materialname="Copper" processRole="1" index="1" toprough="" precedence="1" bottomrough="" layer="1" angle="90" thickunit="micron" subtype="0" sheet="1" expand="0" thick="17.5" pinsOnly="0"/>
+        <layer layer="1" bottomrough="" thick="17.5" expand="0" pinsOnly="0" sheet="1" materialname="Copper" negative="0" subtype="0" precedence="1" toprough="" index="1" processRole="1" angle="90" thickunit="micron"/>
     </layers>
     <vias/>
     <substrates/>

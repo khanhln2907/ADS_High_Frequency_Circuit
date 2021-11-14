@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="5" Version="100">
+<ADSWorkspace Revision="9" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <Library Name="ads_standard_layers_ic" />
@@ -78,5 +78,11 @@
         <Dataset Name="Wilkinson_Power_Divider_2_sections_MomUW_a.ds" />
         <Data_Files Name="Wilkinson_Power_Divider_2_sections_MomUW_a.ds" />
         <Data_Display Name="Wilkinson_Power_Divider_2_sections.dds" />
+        <Preferences Name="ads_rflib_lay.prf" />
+        <Substrate Name="ADS_lib:substrate1.subst" />
+        <Log Name="netlist.log" />
+        <Dataset Name="Wilkinson_Power_Divider_2_sections.ds" />
+        <Data_Files Name="Wilkinson_Power_Divider_2_sections.ds" />
+        <Data_Files Name="Wilkinson_Power_Divider_2_sections_data\logFile.txt" />
     </Workspace>
 </ADSWorkspace>

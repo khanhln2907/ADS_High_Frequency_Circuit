@@ -1,7 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Schematic view="schematic" lib="ADS_lib" cell="Wilkinson_Power_Divider_2_sections" x1="1919" width="1920" y1="32" geom="1,1,2,128,218,1536,832,1920,1080" height="1017"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
