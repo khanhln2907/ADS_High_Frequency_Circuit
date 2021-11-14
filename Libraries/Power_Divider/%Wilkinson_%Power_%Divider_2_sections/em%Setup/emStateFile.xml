@@ -248,7 +248,7 @@
           <SpecificFrequency></SpecificFrequency>
           <SpecificFreqUnit>3</SpecificFreqUnit>
           <RefinementStrategy>0</RefinementStrategy>
-          <MaxRefineFrequency>9 GHz</MaxRefineFrequency>
+          <MaxRefineFrequency>7 GHz</MaxRefineFrequency>
           <RefineFreqUnit>3</RefineFreqUnit>
           <NbBondwireSegments>4</NbBondwireSegments>
           <NbConsecutivePassesRequired>1</NbConsecutivePassesRequired>
@@ -416,7 +416,7 @@
       <workspaceText>C:\Users\khanh\Desktop\Workspace\ADS_RF_Circuit_Design</workspaceText>
       <libraryText>Power_Divider</libraryText>
       <cellText>Wilkinson_Power_Divider_2_sections</cellText>
-      <viewText>layout</viewText>
+      <viewText>layout_resA0603_rectangleTrace</viewText>
     </MomLayout>
     <MomOptions version="1.0">
       <selectedOption>&lt;(inPreparation)></selectedOption>
@@ -474,9 +474,9 @@
           </MomSimOptMeshLayerSpec>
           <MomSimOptMeshNetSpec version="1.0">
             <MomSimOptMeshNetSpecMap>
-              <keyName>N__14</keyName>
+              <keyName>N__10</keyName>
               <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>N__14</netName>
+                <netName>N__10</netName>
                 <MeshDensityType>0</MeshDensityType>
                 <MeshDensity>0</MeshDensity>
                 <MeshDensityUnit></MeshDensityUnit>
@@ -486,9 +486,9 @@
                 <TLMeshType>0</TLMeshType>
                 <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
               </MomSimOptMeshNetSpecMapData>
-              <keyName>N__4</keyName>
+              <keyName>N__19</keyName>
               <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>N__4</netName>
+                <netName>N__19</netName>
                 <MeshDensityType>0</MeshDensityType>
                 <MeshDensity>0</MeshDensity>
                 <MeshDensityUnit></MeshDensityUnit>
@@ -498,9 +498,21 @@
                 <TLMeshType>0</TLMeshType>
                 <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
               </MomSimOptMeshNetSpecMapData>
-              <keyName>N__5</keyName>
+              <keyName>N__23</keyName>
               <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>N__5</netName>
+                <netName>N__23</netName>
+                <MeshDensityType>0</MeshDensityType>
+                <MeshDensity>0</MeshDensity>
+                <MeshDensityUnit></MeshDensityUnit>
+                <EdgeMeshType>0</EdgeMeshType>
+                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+                <TLMeshType>0</TLMeshType>
+                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+              </MomSimOptMeshNetSpecMapData>
+              <keyName>N__8</keyName>
+              <MomSimOptMeshNetSpecMapData version="1.0">
+                <netName>N__8</netName>
                 <MeshDensityType>0</MeshDensityType>
                 <MeshDensity>0</MeshDensity>
                 <MeshDensityUnit></MeshDensityUnit>
@@ -522,45 +534,9 @@
                 <TLMeshType>0</TLMeshType>
                 <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
               </MomSimOptMeshNetSpecMapData>
-              <keyName>P2down</keyName>
+              <keyName>P5</keyName>
               <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>P2down</netName>
-                <MeshDensityType>0</MeshDensityType>
-                <MeshDensity>0</MeshDensity>
-                <MeshDensityUnit></MeshDensityUnit>
-                <EdgeMeshType>0</EdgeMeshType>
-                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-                <TLMeshType>0</TLMeshType>
-                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-              </MomSimOptMeshNetSpecMapData>
-              <keyName>P2up</keyName>
-              <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>P2up</netName>
-                <MeshDensityType>0</MeshDensityType>
-                <MeshDensity>0</MeshDensity>
-                <MeshDensityUnit></MeshDensityUnit>
-                <EdgeMeshType>0</EdgeMeshType>
-                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-                <TLMeshType>0</TLMeshType>
-                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-              </MomSimOptMeshNetSpecMapData>
-              <keyName>PR2_1</keyName>
-              <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>PR2_1</netName>
-                <MeshDensityType>0</MeshDensityType>
-                <MeshDensity>0</MeshDensity>
-                <MeshDensityUnit></MeshDensityUnit>
-                <EdgeMeshType>0</EdgeMeshType>
-                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-                <TLMeshType>0</TLMeshType>
-                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-              </MomSimOptMeshNetSpecMapData>
-              <keyName>PR2_2</keyName>
-              <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>PR2_2</netName>
+                <netName>P5</netName>
                 <MeshDensityType>0</MeshDensityType>
                 <MeshDensity>0</MeshDensity>
                 <MeshDensityUnit></MeshDensityUnit>
@@ -612,23 +588,30 @@
           </MomSimOptSubstrateLayerSpec>
           <MomSimOptSubstrateNetSpec version="1.0">
             <MomSimOptSubstrateNetSpecMap>
-              <keyName>N__14</keyName>
+              <keyName>N__10</keyName>
               <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>N__14</netName>
+                <netName>N__10</netName>
                 <MetalExpansion>0</MetalExpansion>
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
               </MomSimOptSubstrateNetSpecMapData>
-              <keyName>N__4</keyName>
+              <keyName>N__19</keyName>
               <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>N__4</netName>
+                <netName>N__19</netName>
                 <MetalExpansion>0</MetalExpansion>
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
               </MomSimOptSubstrateNetSpecMapData>
-              <keyName>N__5</keyName>
+              <keyName>N__23</keyName>
               <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>N__5</netName>
+                <netName>N__23</netName>
+                <MetalExpansion>0</MetalExpansion>
+                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+              </MomSimOptSubstrateNetSpecMapData>
+              <keyName>N__8</keyName>
+              <MomSimOptSubstrateNetSpecMapData version="1.0">
+                <netName>N__8</netName>
                 <MetalExpansion>0</MetalExpansion>
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -640,30 +623,9 @@
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
               </MomSimOptSubstrateNetSpecMapData>
-              <keyName>P2down</keyName>
+              <keyName>P5</keyName>
               <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>P2down</netName>
-                <MetalExpansion>0</MetalExpansion>
-                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-              </MomSimOptSubstrateNetSpecMapData>
-              <keyName>P2up</keyName>
-              <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>P2up</netName>
-                <MetalExpansion>0</MetalExpansion>
-                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-              </MomSimOptSubstrateNetSpecMapData>
-              <keyName>PR2_1</keyName>
-              <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>PR2_1</netName>
-                <MetalExpansion>0</MetalExpansion>
-                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-              </MomSimOptSubstrateNetSpecMapData>
-              <keyName>PR2_2</keyName>
-              <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>PR2_2</netName>
+                <netName>P5</netName>
                 <MetalExpansion>0</MetalExpansion>
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -788,9 +750,9 @@
         </MomSimOptMeshLayerSpec>
         <MomSimOptMeshNetSpec version="1.0">
           <MomSimOptMeshNetSpecMap>
-            <keyName>N__14</keyName>
+            <keyName>N__10</keyName>
             <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>N__14</netName>
+              <netName>N__10</netName>
               <MeshDensityType>0</MeshDensityType>
               <MeshDensity>0</MeshDensity>
               <MeshDensityUnit></MeshDensityUnit>
@@ -800,9 +762,9 @@
               <TLMeshType>0</TLMeshType>
               <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
             </MomSimOptMeshNetSpecMapData>
-            <keyName>N__4</keyName>
+            <keyName>N__19</keyName>
             <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>N__4</netName>
+              <netName>N__19</netName>
               <MeshDensityType>0</MeshDensityType>
               <MeshDensity>0</MeshDensity>
               <MeshDensityUnit></MeshDensityUnit>
@@ -812,9 +774,21 @@
               <TLMeshType>0</TLMeshType>
               <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
             </MomSimOptMeshNetSpecMapData>
-            <keyName>N__5</keyName>
+            <keyName>N__23</keyName>
             <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>N__5</netName>
+              <netName>N__23</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__8</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__8</netName>
               <MeshDensityType>0</MeshDensityType>
               <MeshDensity>0</MeshDensity>
               <MeshDensityUnit></MeshDensityUnit>
@@ -836,45 +810,9 @@
               <TLMeshType>0</TLMeshType>
               <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
             </MomSimOptMeshNetSpecMapData>
-            <keyName>P2down</keyName>
+            <keyName>P5</keyName>
             <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>P2down</netName>
-              <MeshDensityType>0</MeshDensityType>
-              <MeshDensity>0</MeshDensity>
-              <MeshDensityUnit></MeshDensityUnit>
-              <EdgeMeshType>0</EdgeMeshType>
-              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-              <TLMeshType>0</TLMeshType>
-              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-            </MomSimOptMeshNetSpecMapData>
-            <keyName>P2up</keyName>
-            <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>P2up</netName>
-              <MeshDensityType>0</MeshDensityType>
-              <MeshDensity>0</MeshDensity>
-              <MeshDensityUnit></MeshDensityUnit>
-              <EdgeMeshType>0</EdgeMeshType>
-              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-              <TLMeshType>0</TLMeshType>
-              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-            </MomSimOptMeshNetSpecMapData>
-            <keyName>PR2_1</keyName>
-            <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>PR2_1</netName>
-              <MeshDensityType>0</MeshDensityType>
-              <MeshDensity>0</MeshDensity>
-              <MeshDensityUnit></MeshDensityUnit>
-              <EdgeMeshType>0</EdgeMeshType>
-              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-              <TLMeshType>0</TLMeshType>
-              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-            </MomSimOptMeshNetSpecMapData>
-            <keyName>PR2_2</keyName>
-            <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>PR2_2</netName>
+              <netName>P5</netName>
               <MeshDensityType>0</MeshDensityType>
               <MeshDensity>0</MeshDensity>
               <MeshDensityUnit></MeshDensityUnit>
@@ -926,23 +864,30 @@
         </MomSimOptSubstrateLayerSpec>
         <MomSimOptSubstrateNetSpec version="1.0">
           <MomSimOptSubstrateNetSpecMap>
-            <keyName>N__14</keyName>
+            <keyName>N__10</keyName>
             <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>N__14</netName>
+              <netName>N__10</netName>
               <MetalExpansion>0</MetalExpansion>
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
             </MomSimOptSubstrateNetSpecMapData>
-            <keyName>N__4</keyName>
+            <keyName>N__19</keyName>
             <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>N__4</netName>
+              <netName>N__19</netName>
               <MetalExpansion>0</MetalExpansion>
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
             </MomSimOptSubstrateNetSpecMapData>
-            <keyName>N__5</keyName>
+            <keyName>N__23</keyName>
             <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>N__5</netName>
+              <netName>N__23</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__8</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__8</netName>
               <MetalExpansion>0</MetalExpansion>
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -954,30 +899,9 @@
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
             </MomSimOptSubstrateNetSpecMapData>
-            <keyName>P2down</keyName>
+            <keyName>P5</keyName>
             <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>P2down</netName>
-              <MetalExpansion>0</MetalExpansion>
-              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-            </MomSimOptSubstrateNetSpecMapData>
-            <keyName>P2up</keyName>
-            <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>P2up</netName>
-              <MetalExpansion>0</MetalExpansion>
-              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-            </MomSimOptSubstrateNetSpecMapData>
-            <keyName>PR2_1</keyName>
-            <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>PR2_1</netName>
-              <MetalExpansion>0</MetalExpansion>
-              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-            </MomSimOptSubstrateNetSpecMapData>
-            <keyName>PR2_2</keyName>
-            <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>PR2_2</netName>
+              <netName>P5</netName>
               <MetalExpansion>0</MetalExpansion>
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -1074,8 +998,8 @@
           <numFreq>1</numFreq>
           <typeFreq>0</typeFreq>
           <startFreq>1</startFreq>
-          <stopFreq>9</stopFreq>
-          <ptsFreq>50 (max)</ptsFreq>
+          <stopFreq>7</stopFreq>
+          <ptsFreq>100 (max)</ptsFreq>
           <stepFreq>-1</stepFreq>
           <enableFreq>True</enableFreq>
           <startFreqUnit>GHz</startFreqUnit>
@@ -1146,7 +1070,7 @@
       <preferCircuitPartitioning>False</preferCircuitPartitioning>
       <requiresCosimulation>False</requiresCosimulation>
       <definedBy>0</definedBy>
-      <topLibCellView>Power_Divider:Wilkinson_Power_Divider_2_sections:layout</topLibCellView>
+      <topLibCellView>Power_Divider:Wilkinson_Power_Divider_2_sections:layout_resA0603_rectangleTrace</topLibCellView>
       <forcedEmOnly>False</forcedEmOnly>
       <policySwitchList></policySwitchList>
       <autoZoomInLayout>False</autoZoomInLayout>
@@ -1154,34 +1078,6 @@
       <autoSelectInLayout>False</autoSelectInLayout>
       <cellDefs>
         <keyName>ads_rflib:R_Pad1</keyName>
-        <PartitionCellDef version="1.0">
-          <definedBy>0</definedBy>
-          <offeringMap>
-            <keyName>circuit</keyName>
-            <PartitionItem version="1.0">
-              <partitionName>circuit</partitionName>
-              <definedBy>0</definedBy>
-              <PartitionAction version="1.0">
-                <definedBy>0</definedBy>
-                <decision>4</decision>
-                <viewOverride></viewOverride>
-                <viewOverrideType></viewOverrideType>
-              </PartitionAction>
-            </PartitionItem>
-            <keyName>em</keyName>
-            <PartitionItem version="1.0">
-              <partitionName>em</partitionName>
-              <definedBy>0</definedBy>
-              <PartitionAction version="1.0">
-                <definedBy>0</definedBy>
-                <decision>3</decision>
-                <viewOverride></viewOverride>
-                <viewOverrideType></viewOverrideType>
-              </PartitionAction>
-            </PartitionItem>
-          </offeringMap>
-        </PartitionCellDef>
-        <keyName>ads_tlines:MCURVE</keyName>
         <PartitionCellDef version="1.0">
           <definedBy>0</definedBy>
           <offeringMap>
@@ -1267,39 +1163,7 @@
         </PartitionCellDef>
       </cellDefs>
       <instDefs>
-        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout:Curve1down</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:MCURVE:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout:Curve1up</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:MCURVE:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout:Curve2down</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:MCURVE:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout:Curve2up</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:MCURVE:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout:R1</keyName>
+        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout_resA0603_rectangleTrace:R1</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_rflib:R_Pad1:layout</libCellView>
@@ -1307,7 +1171,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout:R2</keyName>
+        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout_resA0603_rectangleTrace:R2</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_rflib:R_Pad1:layout</libCellView>
@@ -1315,7 +1179,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout:TL1</keyName>
+        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout_resA0603_rectangleTrace:TL1</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -1323,7 +1187,23 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout:Tee1</keyName>
+        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout_resA0603_rectangleTrace:TL2</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout_resA0603_rectangleTrace:TL3</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>Power_Divider:Wilkinson_Power_Divider_2_sections:layout_resA0603_rectangleTrace:Tee1</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MTEE_ADS:layout</libCellView>
@@ -1355,7 +1235,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0:0</stdItem>
+                  <stdItem>-6e-05:0</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1363,7 +1243,7 @@
           </Pin>
           <Pin version="1.1">
             <pinName>P2</pinName>
-            <netName>PR2_1</netName>
+            <netName>N__10</netName>
             <pinNum>2</pinNum>
             <toolInfo/>
             <compInfo/>
@@ -1374,7 +1254,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.015875:0.00298</stdItem>
+                  <stdItem>0.0103527:0.002724</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1382,7 +1262,7 @@
           </Pin>
           <Pin version="1.1">
             <pinName>P3</pinName>
-            <netName>PR2_2</netName>
+            <netName>P5</netName>
             <pinNum>3</pinNum>
             <toolInfo/>
             <compInfo/>
@@ -1393,15 +1273,15 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.015875:-0.002985</stdItem>
+                  <stdItem>0.0103759:-0.0027353</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
             <deltaGapInfo/>
           </Pin>
           <Pin version="1.1">
-            <pinName>P2up</pinName>
-            <netName>P2up</netName>
+            <pinName>P4</pinName>
+            <netName>N__10</netName>
             <pinNum>4</pinNum>
             <toolInfo/>
             <compInfo/>
@@ -1412,15 +1292,15 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.00683:0.000265</stdItem>
+                  <stdItem>0.004381:0.0013052</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
             <deltaGapInfo/>
           </Pin>
           <Pin version="1.1">
-            <pinName>P2down</pinName>
-            <netName>P2down</netName>
+            <pinName>P5</pinName>
+            <netName>P5</netName>
             <pinNum>5</pinNum>
             <toolInfo/>
             <compInfo/>
@@ -1431,15 +1311,15 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.00683:-0.00027</stdItem>
+                  <stdItem>0.004381:-0.0012948</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
             <deltaGapInfo/>
           </Pin>
           <Pin version="1.1">
-            <pinName>P1up</pinName>
-            <netName>PR2_1</netName>
+            <pinName>P6</pinName>
+            <netName>N__10</netName>
             <pinNum>6</pinNum>
             <toolInfo/>
             <compInfo/>
@@ -1450,15 +1330,15 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.012095:0.000265</stdItem>
+                  <stdItem>0.0079701:0.0013</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
             <deltaGapInfo/>
           </Pin>
           <Pin version="1.1">
-            <pinName>P1down</pinName>
-            <netName>PR2_2</netName>
+            <pinName>P7</pinName>
+            <netName>P5</netName>
             <pinNum>7</pinNum>
             <toolInfo/>
             <compInfo/>
@@ -1469,7 +1349,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.012095:-0.00027</stdItem>
+                  <stdItem>0.0079701:-0.0013</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1528,32 +1408,32 @@
           </Port>
           <Port version="1.3">
             <portNum>4</portNum>
-            <portName>P2up</portName>
-            <refImpedance>94.5961:0</refImpedance>
+            <portName>P4</portName>
+            <refImpedance>50:0</refImpedance>
             <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
             <PlusPinNames>
-              <stdItem>P2up</stdItem>
+              <stdItem>P4</stdItem>
             </PlusPinNames>
             <MinusPinNames>
-              <stdItem>P2down</stdItem>
+              <stdItem>P5</stdItem>
             </MinusPinNames>
           </Port>
           <Port version="1.3">
             <portNum>5</portNum>
-            <portName>P1up</portName>
-            <refImpedance>72.05:0</refImpedance>
+            <portName>P6</portName>
+            <refImpedance>50:0</refImpedance>
             <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
             <PlusPinNames>
-              <stdItem>P1up</stdItem>
+              <stdItem>P6</stdItem>
             </PlusPinNames>
             <MinusPinNames>
-              <stdItem>P1down</stdItem>
+              <stdItem>P7</stdItem>
             </MinusPinNames>
           </Port>
         </Ports>
@@ -1562,7 +1442,7 @@
     <SimSetupOverview version="2.0">
       <setupType>0</setupType>
       <simulator>0</simulator>
-      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\khanh\Desktop\Workspace\ADS&lt;br>Library: ADS_lib&lt;br>Cell: Wilkinson_Power_Divider_2_sections&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: substrate1 (defined in library: ADS_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">5 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 1 GHz to 9 GHz (Npts: 50 (max))&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: Wilkinson_Power_Divider_2_sections_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
+      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\khanh\Desktop\Workspace\ADS_RF_Circuit_Design&lt;br>Library: Power_Divider&lt;br>Cell: Wilkinson_Power_Divider_2_sections&lt;br>View: layout_resA0603_rectangleTrace&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: substrate1 (defined in library: Power_Divider)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">5 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 1 GHz to 7 GHz (Npts: 100 (max))&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: Wilkinson_Power_Divider_2_sections_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
     </SimSetupOverview>
     <SimulationResources2 version="1.0">
       <resourceType>LocalRemote</resourceType>
