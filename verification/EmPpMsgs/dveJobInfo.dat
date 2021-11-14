@@ -1,5 +1,0 @@
-jobName=EmPpMsgs
-jobType=emprep
-designName=ADS_lib:Wilkinson_Power_Divider_2_sections:layout
-ruleFilePath=
-addInfo="EM preprocessor messages displayed as DRC errors"
