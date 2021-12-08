@@ -1,13 +1,13 @@
 <EmSimSetup version="1.0">
   <MainWindow version="2.2">
     <SelectedTreeItemIndex>0</SelectedTreeItemIndex>
-    <selectedTreeItem>0,unknown</selectedTreeItem>
+    <selectedTreeItem>0,setup</selectedTreeItem>
     <simCalculationType>5</simCalculationType>
     <cosimCalculationType>0</cosimCalculationType>
     <CoSimulation version="2.0">
       <cosimViewName>emCosim</cosimViewName>
       <intermediateLibraryName>Divider_Final_lib</intermediateLibraryName>
-      <intermediateCellName>3dB_coupler_emCosim_v1</intermediateCellName>
+      <intermediateCellName>3dB_coupler_emCosim</intermediateCellName>
       <intermediateModelViewName>emModel</intermediateModelViewName>
       <cosimStoresOnlySParamData>True</cosimStoresOnlySParamData>
       <cosimIntermediateLayoutChoice>2</cosimIntermediateLayoutChoice>
@@ -107,9 +107,9 @@
             <FemSimOptMeshGlobalMap/>
             <FemSimOptMeshLayerSpec version="1.0">
               <FemSimOptMeshLayerSpecMap>
-                <keyName>cond</keyName>
+                <keyName>cond2</keyName>
                 <FemSimOptMeshLayerSpecMapData version="1.0">
-                  <layerName>cond</layerName>
+                  <layerName>cond2</layerName>
                   <VertexMeshType>0</VertexMeshType>
                   <VertexMeshLength>0</VertexMeshLength>
                   <VertexMeshLengthUnit></VertexMeshLengthUnit>
@@ -151,7 +151,7 @@
           </FemSimOptSubstrateGlobal>
           <FemSimOptSubstrateLayerSpec version="1.0">
             <FemSimOptSubstrateLayerSpecMap>
-              <keyName>cond</keyName>
+              <keyName>cond2</keyName>
               <FemSimOptSubstrateLayerSpecMapData version="1.0">
                 <layerName></layerName>
                 <MetalExpansion>0</MetalExpansion>
@@ -192,9 +192,9 @@
             <typeTabIndex>0</typeTabIndex>
             <SimOptPreprocLayerSpecStrip version="1.0">
               <SimOptPreprocLayerSpecStripMap>
-                <keyName>cond</keyName>
+                <keyName>cond2</keyName>
                 <SimOptPreprocLayerSpecStripMapData version="1.0">
-                  <stripLayerName>cond</stripLayerName>
+                  <stripLayerName>cond2</stripLayerName>
                   <mf_useGlobal>True</mf_useGlobal>
                   <mf_inputType>0</mf_inputType>
                   <mf_inputValue></mf_inputValue>
@@ -413,7 +413,7 @@
       <SaveFieldsType>2</SaveFieldsType>
     </FemSimReuseVisualization>
     <MomLayout version="1.0">
-      <workspaceText>C:\Users\Tim\ADS\HighFrequencyCircuits_wrk</workspaceText>
+      <workspaceText>C:\Users\khanh\Desktop\Workspace\ADS_RF_Circuit_Design</workspaceText>
       <libraryText>Divider_Final_lib</libraryText>
       <cellText>3dB_coupler</cellText>
       <viewText>layout</viewText>
@@ -458,9 +458,9 @@
           </MomSimOptMeshGlobal>
           <MomSimOptMeshLayerSpec version="1.0">
             <MomSimOptMeshLayerSpecMap>
-              <keyName>cond</keyName>
+              <keyName>cond2</keyName>
               <MomSimOptMeshLayerSpecMapData version="1.0">
-                <layerName>cond</layerName>
+                <layerName>cond2</layerName>
                 <MeshDensityType>0</MeshDensityType>
                 <MeshDensity>0</MeshDensity>
                 <MeshDensityUnit></MeshDensityUnit>
@@ -853,9 +853,9 @@
           </MomSimOptSubstrateGlobal>
           <MomSimOptSubstrateLayerSpec version="1.0">
             <MomSimOptSubstrateLayerSpecMap>
-              <keyName>cond</keyName>
+              <keyName>cond2</keyName>
               <MomSimOptSubstrateLayerSpecMapData version="1.1">
-                <layerName>cond</layerName>
+                <layerName>cond2</layerName>
                 <MetalExpansion>0</MetalExpansion>
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -1099,9 +1099,9 @@
             <typeTabIndex>0</typeTabIndex>
             <SimOptPreprocLayerSpecStrip version="1.0">
               <SimOptPreprocLayerSpecStripMap>
-                <keyName>cond</keyName>
+                <keyName>cond2</keyName>
                 <SimOptPreprocLayerSpecStripMapData version="1.0">
-                  <stripLayerName>cond</stripLayerName>
+                  <stripLayerName>cond2</stripLayerName>
                   <mf_useGlobal>True</mf_useGlobal>
                   <mf_inputType>0</mf_inputType>
                   <mf_inputValue></mf_inputValue>
@@ -1171,9 +1171,9 @@
         </MomSimOptMeshGlobal>
         <MomSimOptMeshLayerSpec version="1.0">
           <MomSimOptMeshLayerSpecMap>
-            <keyName>cond</keyName>
+            <keyName>cond2</keyName>
             <MomSimOptMeshLayerSpecMapData version="1.0">
-              <layerName>cond</layerName>
+              <layerName>cond2</layerName>
               <MeshDensityType>0</MeshDensityType>
               <MeshDensity>0</MeshDensity>
               <MeshDensityUnit></MeshDensityUnit>
@@ -1566,9 +1566,9 @@
         </MomSimOptSubstrateGlobal>
         <MomSimOptSubstrateLayerSpec version="1.0">
           <MomSimOptSubstrateLayerSpecMap>
-            <keyName>cond</keyName>
+            <keyName>cond2</keyName>
             <MomSimOptSubstrateLayerSpecMapData version="1.1">
-              <layerName>cond</layerName>
+              <layerName>cond2</layerName>
               <MetalExpansion>0</MetalExpansion>
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -1812,9 +1812,9 @@
           <typeTabIndex>0</typeTabIndex>
           <SimOptPreprocLayerSpecStrip version="1.0">
             <SimOptPreprocLayerSpecStripMap>
-              <keyName>cond</keyName>
+              <keyName>cond2</keyName>
               <SimOptPreprocLayerSpecStripMapData version="1.0">
-                <stripLayerName>cond</stripLayerName>
+                <stripLayerName>cond2</stripLayerName>
                 <mf_useGlobal>True</mf_useGlobal>
                 <mf_inputType>0</mf_inputType>
                 <mf_inputValue></mf_inputValue>
@@ -2318,7 +2318,7 @@
               <PinShapeDef version="1.0">
                 <layerNum>2</layerNum>
                 <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
+                <layerIdName>cond2:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
                   <stdItem>-0.0090817:0.0013879</stdItem>
@@ -2337,7 +2337,7 @@
               <PinShapeDef version="1.0">
                 <layerNum>2</layerNum>
                 <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
+                <layerIdName>cond2:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
                   <stdItem>0.0048716:0</stdItem>
@@ -2356,7 +2356,7 @@
               <PinShapeDef version="1.0">
                 <layerNum>2</layerNum>
                 <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
+                <layerIdName>cond2:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
                   <stdItem>0.0048716:0.00272</stdItem>
@@ -2375,7 +2375,7 @@
               <PinShapeDef version="1.0">
                 <layerNum>2</layerNum>
                 <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
+                <layerIdName>cond2:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
                   <stdItem>0:0.00272</stdItem>
@@ -2394,7 +2394,7 @@
               <PinShapeDef version="1.0">
                 <layerNum>2</layerNum>
                 <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
+                <layerIdName>cond2:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
                   <stdItem>0:0</stdItem>
@@ -2413,7 +2413,7 @@
               <PinShapeDef version="1.0">
                 <layerNum>2</layerNum>
                 <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
+                <layerIdName>cond2:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
                   <stdItem>0.0038716:0.00272</stdItem>
@@ -2432,7 +2432,7 @@
               <PinShapeDef version="1.0">
                 <layerNum>2</layerNum>
                 <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
+                <layerIdName>cond2:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
                   <stdItem>0.0038716:0</stdItem>
@@ -2528,7 +2528,7 @@
     <SimSetupOverview version="2.0">
       <setupType>0</setupType>
       <simulator>0</simulator>
-      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\Tim\ADS\HighFrequencyCircuits_wrk&lt;br>Library: HighFrequencyCircuits_lib&lt;br>Cell: 3dB_coupler&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: rogers (defined in library: HighFrequencyCircuits_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">5 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 1 GHz to 7 GHz (Npts: 50 (max))&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: _3dB_coupler_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-created/auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
+      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\khanh\Desktop\Workspace\ADS_RF_Circuit_Design&lt;br>Library: Divider_Final_lib&lt;br>Cell: 3dB_coupler&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: rogers_v1 (defined in library: Divider_Final_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">5 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 1 GHz to 7 GHz (Npts: 50 (max))&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: _3dB_coupler_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-created/auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
     </SimSetupOverview>
     <SimulationResources2 version="1.0">
       <resourceType>LocalRemote</resourceType>
