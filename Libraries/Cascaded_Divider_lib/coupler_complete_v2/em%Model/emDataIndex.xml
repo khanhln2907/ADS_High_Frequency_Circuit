@@ -1,0 +1,75 @@
+<emDataViewDatabaseIndex>
+  <version major="1" minor="1"/>
+  <emDatabase>
+    <ParameterNames>
+      <parameterName>R2</parameterName>
+      <parameterName>R1_</parameterName>
+      <parameterName>R2_</parameterName>
+      <parameterName>B_R1_</parameterName>
+      <parameterName>B_R2_</parameterName>
+      <parameterName>B_R2</parameterName>
+      <parameterName>R1</parameterName>
+      <parameterName>B_R1</parameterName>
+      <parameterName>W0</parameterName>
+      <parameterName>B_W0</parameterName>
+      <parameterName>W1</parameterName>
+      <parameterName>B_W1</parameterName>
+      <parameterName>B_W2</parameterName>
+      <parameterName>W2</parameterName>
+      <parameterName>WO6</parameterName>
+      <parameterName>WO3</parameterName>
+      <parameterName>B_W3</parameterName>
+      <parameterName>L0</parameterName>
+      <parameterName>B_L0</parameterName>
+      <parameterName>L1</parameterName>
+      <parameterName>B_L1</parameterName>
+      <parameterName>L2</parameterName>
+      <parameterName>B_L2</parameterName>
+      <parameterName>L3</parameterName>
+      <parameterName>B_L3</parameterName>
+      <parameterName>L_OUT</parameterName>
+    </ParameterNames>
+    <databaseItems>
+      <databaseItem name="data.001" index="1">
+        <parameterValues>
+          <value>254 Ohm</value>
+          <value>0.6 mm</value>
+          <value>0.6 mm</value>
+          <value>0.6 mm</value>
+          <value>0.6 mm</value>
+          <value>254 Ohm</value>
+          <value>86 Ohm</value>
+          <value>86 Ohm</value>
+          <value>0.595432 mm</value>
+          <value>0.595432 mm</value>
+          <value>0.191511 mm</value>
+          <value>0.191511 mm</value>
+          <value>0.380259 mm</value>
+          <value>0.380259 mm</value>
+          <value>0.000452143</value>
+          <value>0.000452143</value>
+          <value>0.54256 mm</value>
+          <value>3.39316 mm</value>
+          <value>3.39316 mm</value>
+          <value>7.4533 mm</value>
+          <value>7.4533 mm</value>
+          <value>6.21279 mm</value>
+          <value>6.21279 mm</value>
+          <value>1.01012 mm</value>
+          <value>1.01012 mm</value>
+          <value>0.0025</value>
+        </parameterValues>
+        <fileNames>
+          <name>data.001.sio</name>
+          <name>data.001.sam</name>
+          <name>data.001.log.zip</name>
+        </fileNames>
+        <originalFileNames>
+          <name>proj.sio</name>
+          <name>proj.sam</name>
+          <name>proj.log.zip</name>
+        </originalFileNames>
+      </databaseItem>
+    </databaseItems>
+  </emDatabase>
+</emDataViewDatabaseIndex>

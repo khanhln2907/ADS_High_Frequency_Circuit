@@ -1,7 +1,7 @@
 <EmSimSetup version="1.0">
   <MainWindow version="2.2">
-    <SelectedTreeItemIndex>2</SelectedTreeItemIndex>
-    <selectedTreeItem>0,subst</selectedTreeItem>
+    <SelectedTreeItemIndex>0</SelectedTreeItemIndex>
+    <selectedTreeItem>0,unknown</selectedTreeItem>
     <simCalculationType>5</simCalculationType>
     <cosimCalculationType>0</cosimCalculationType>
     <CoSimulation version="2.0">

@@ -7,7 +7,7 @@
     <CoSimulation version="2.0">
       <cosimViewName>emCosim</cosimViewName>
       <intermediateLibraryName>Cascaded_Divider_lib</intermediateLibraryName>
-      <intermediateCellName>coupler_complete_v1_emCosim</intermediateCellName>
+      <intermediateCellName>coupler_complete_v2_emCosim</intermediateCellName>
       <intermediateModelViewName>emModel</intermediateModelViewName>
       <cosimStoresOnlySParamData>True</cosimStoresOnlySParamData>
       <cosimIntermediateLayoutChoice>2</cosimIntermediateLayoutChoice>
@@ -415,7 +415,7 @@
     <MomLayout version="1.0">
       <workspaceText>C:\Users\khanh\Desktop\Workspace\ADS_RF_Circuit_Design</workspaceText>
       <libraryText>Cascaded_Divider_lib</libraryText>
-      <cellText>coupler_complete_v1</cellText>
+      <cellText>coupler_complete_v2</cellText>
       <viewText>layout</viewText>
     </MomLayout>
     <MomOptions version="1.0">
@@ -3561,10 +3561,10 @@
     </MomOptions>
     <MomSimDataset version="2.0">
       <dataset_useCellName>True</dataset_useCellName>
-      <givenDatasetName>coupler_complete_v1</givenDatasetName>
+      <givenDatasetName>coupler_complete_v2</givenDatasetName>
       <addDecoration>True</addDecoration>
       <dds_useCellName>True</dds_useCellName>
-      <givenDdsName>coupler_complete_v1</givenDdsName>
+      <givenDdsName>coupler_complete_v2</givenDdsName>
       <useSimSetupViewName>False</useSimSetupViewName>
       <useSimType>True</useSimType>
       <useSimOptionsName>False</useSimOptionsName>
@@ -3634,14 +3634,14 @@
       </FreqPlanForOutput>
       <SimDataDisplay version="1.0">
         <dds_useCellName>True</dds_useCellName>
-        <dds_givenName>coupler_complete_v1</dds_givenName>
+        <dds_givenName>coupler_complete_v2</dds_givenName>
         <openDisplay>True</openDisplay>
         <autoselectTemplate>True</autoselectTemplate>
         <templateName>S_Nport_P.ddt</templateName>
       </SimDataDisplay>
       <SimDataset version="1.0">
         <ds_useCellName>True</ds_useCellName>
-        <ds_givenName>coupler_complete_v1</ds_givenName>
+        <ds_givenName>coupler_complete_v2</ds_givenName>
         <ds_addDecoration>True</ds_addDecoration>
         <ds_useSimSetupViewName>False</ds_useSimSetupViewName>
         <ds_useSimType>True</ds_useSimType>
@@ -3654,7 +3654,7 @@
       <preferCircuitPartitioning>False</preferCircuitPartitioning>
       <requiresCosimulation>False</requiresCosimulation>
       <definedBy>0</definedBy>
-      <topLibCellView>Cascaded_Divider_lib:coupler_complete_v1:layout</topLibCellView>
+      <topLibCellView>Cascaded_Divider_lib:coupler_complete_v2:layout</topLibCellView>
       <forcedEmOnly>False</forcedEmOnly>
       <policySwitchList></policySwitchList>
       <autoZoomInLayout>False</autoZoomInLayout>
@@ -3775,7 +3775,7 @@
         </PartitionCellDef>
       </cellDefs>
       <instDefs>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend1</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend1</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3783,7 +3783,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend10</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend10</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3791,7 +3791,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend11</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend11</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3799,7 +3799,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend12</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend12</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3807,7 +3807,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend13</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend13</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3815,7 +3815,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend14</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend14</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3823,7 +3823,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend15</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend15</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3831,7 +3831,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend16</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend16</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3839,7 +3839,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend17</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend17</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3847,7 +3847,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend18</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend18</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3855,7 +3855,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend19</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend19</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3863,7 +3863,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend2</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend2</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3871,7 +3871,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend20</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend20</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3879,7 +3879,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend21</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend21</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3887,7 +3887,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend22</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend22</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3895,7 +3895,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend3</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend3</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3903,7 +3903,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend4</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend4</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3911,7 +3911,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend5</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend5</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3919,7 +3919,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend6</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend6</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3927,7 +3927,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend7</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend7</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3935,7 +3935,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend8</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend8</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3943,7 +3943,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Bend9</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Bend9</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MSABND_MDS:layout</libCellView>
@@ -3951,7 +3951,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Curve1</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Curve1</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MCURVE:layout</libCellView>
@@ -3959,7 +3959,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Curve2</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Curve2</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MCURVE:layout</libCellView>
@@ -3967,7 +3967,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Curve3</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Curve3</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MCURVE:layout</libCellView>
@@ -3975,7 +3975,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Curve4</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Curve4</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MCURVE:layout</libCellView>
@@ -3983,7 +3983,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Curve5</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Curve5</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MCURVE:layout</libCellView>
@@ -3991,7 +3991,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Curve6</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Curve6</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MCURVE:layout</libCellView>
@@ -3999,7 +3999,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Curve7</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Curve7</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MCURVE:layout</libCellView>
@@ -4007,7 +4007,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:Curve8</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:Curve8</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MCURVE:layout</libCellView>
@@ -4015,7 +4015,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:R1</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:R1</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_rflib:R_Pad1:layout</libCellView>
@@ -4023,7 +4023,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:R2</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:R2</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_rflib:R_Pad1:layout</libCellView>
@@ -4031,7 +4031,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:R3</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:R3</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_rflib:R_Pad1:layout</libCellView>
@@ -4039,7 +4039,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:R4</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:R4</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_rflib:R_Pad1:layout</libCellView>
@@ -4047,7 +4047,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL1</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL1</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4055,7 +4055,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL10</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL10</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4063,7 +4063,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL11</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL11</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4071,7 +4071,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL12</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL12</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4079,7 +4079,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL13</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL13</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4087,7 +4087,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL14</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL14</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4095,7 +4095,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL15</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL15</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4103,7 +4103,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL17</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL17</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4111,7 +4111,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL18</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL18</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4119,7 +4119,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL19</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL19</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4127,7 +4127,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL2</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL2</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4135,7 +4135,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL20</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL20</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4143,7 +4143,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL21</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL21</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4151,7 +4151,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL22</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL22</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4159,7 +4159,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL23</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL23</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4167,7 +4167,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL24</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL24</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4175,7 +4175,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL25</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL25</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4183,7 +4183,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL26</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL26</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4191,7 +4191,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL27</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL27</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4199,7 +4199,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL28</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL28</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4207,7 +4207,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL29</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL29</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4215,7 +4215,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL3</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL3</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4223,7 +4223,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL30</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL30</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4231,7 +4231,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL31</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL31</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4239,7 +4239,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL32</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL32</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4247,7 +4247,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL33</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL33</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4255,7 +4255,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL34</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL34</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4263,7 +4263,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL35</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL35</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4271,7 +4271,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL36</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL36</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4279,7 +4279,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL37</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL37</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4287,7 +4287,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL38</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL38</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4295,7 +4295,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL39</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL39</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4303,7 +4303,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL4</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL4</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4311,7 +4311,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL40</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL40</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4319,7 +4319,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL41</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL41</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4327,7 +4327,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL42</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL42</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4335,7 +4335,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL43</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL43</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4343,7 +4343,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL44</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL44</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4351,7 +4351,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL5</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL5</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4359,7 +4359,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL6</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL6</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4367,7 +4367,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL7</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL7</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4375,7 +4375,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL8</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL8</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4383,7 +4383,7 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>Cascaded_Divider_lib:coupler_complete_v1:layout:TL9</keyName>
+        <keyName>Cascaded_Divider_lib:coupler_complete_v2:layout:TL9</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
           <libCellView>ads_tlines:MLIN:layout</libCellView>
@@ -4762,7 +4762,7 @@
     <SimSetupOverview version="2.0">
       <setupType>0</setupType>
       <simulator>0</simulator>
-      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\khanh\Desktop\Workspace\ADS_RF_Circuit_Design&lt;br>Library: Cascaded_Divider_lib&lt;br>Cell: coupler_complete_v1&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: substrate1 (defined in library: Power_Divider)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">8 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 1 GHz to 7 GHz (Npts: 50 (max))&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: coupler_complete_v1_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-created/auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
+      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\khanh\Desktop\Workspace\ADS_RF_Circuit_Design&lt;br>Library: Cascaded_Divider_lib&lt;br>Cell: coupler_complete_v2&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: substrate1 (defined in library: Power_Divider)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">8 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 1 GHz to 7 GHz (Npts: 50 (max))&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: coupler_complete_v2_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-created/auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
     </SimSetupOverview>
     <SimulationResources2 version="1.0">
       <resourceType>LocalRemote</resourceType>
